@@ -1,0 +1,1 @@
+emcc main.cpp -s USE_SDL=2 -o wasm_build/raycasting_engine.html
