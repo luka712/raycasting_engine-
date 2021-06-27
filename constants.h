@@ -10,11 +10,15 @@
 #define TILE_SIZE 64
 #define MAP_NUM_ROWS 13
 #define MAP_NUM_COLS 20
+#define NUM_TEXTURES 8
 
 #define MINIMAP_SCALE_FACTOR 0.3f
 
 #define WINDOW_WIDTH (MAP_NUM_COLS * TILE_SIZE)
 #define WINDOW_HEIGHT (MAP_NUM_ROWS * TILE_SIZE)
+
+#define TEXTURE_WIDTH 64
+#define TEXTURE_HEIGHT 64
 
 #define RADIANS(val) (val * (PI / 180.0f))
 
