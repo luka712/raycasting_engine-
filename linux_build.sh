@@ -1,0 +1,1 @@
+g++ main.cpp graphics.cpp map.cpp player.cpp ray.cpp wall.cpp upng.cpp textures.cpp -o ./linux_build/raycaster.out `sdl2-config --cflags --libs` -lSDL2
